@@ -1,8 +1,12 @@
 import React from 'react';
+import Button from '../components/Button.jsx';
 
 function Home(){
     return(
-        <h1>Home</h1>
+        <main className='home'>
+            <h1>Home</h1>
+            <Button content="Nos services" color="light"/>
+        </main>
     )
 }
 
