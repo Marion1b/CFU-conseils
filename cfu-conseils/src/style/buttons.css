@@ -9,6 +9,7 @@ button{
     transition: all 200ms ease-in;
     cursor: pointer;
     border: 2px solid var(--dark);
+    margin: 0rem 2rem;
 }
 
 button:hover{

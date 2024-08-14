@@ -1,0 +1,92 @@
+.home{
+    background-color: var(--light);
+}
+
+.home-presentation{
+    max-width: 80rem;
+    margin: auto;
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.home-presentation h1, .home-presentation p{
+    margin-bottom: 5rem;
+}
+
+figure{
+    height: 190px;
+}
+
+.wave-home{
+    width: 100%;
+}
+
+.home-services{
+    background-color: var(--secondary);
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+
+.home-services h1{
+    text-align: center;
+    color: var(--light);
+}
+
+.home-services-cards-container{
+    max-width: 120rem;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-services-card{
+    background-color: var(--light);
+    width: 30rem;
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 1.5rem;
+    border: 3px solid var(--dark);
+    padding: 2rem;
+}
+
+.home-services-card h2{
+    text-align: center;
+}
+
+.home-team{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.home-team h1{
+    text-align: center;
+}
+
+.home-team-cards-container{
+    max-width: 120rem;
+    margin: auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-team-card{
+    display: flex;
+    align-items: center;
+    width: 410px;
+    height: 200px;
+    background-color: var(--secondary);
+    color: var(--light);
+    border-radius: 1.5rem;
+    border: 3px solid var(--dark);
+    padding-left: 3rem;
+}
+
+.home-team-card p{
+    margin-left: 2rem;
+}
+
