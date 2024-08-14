@@ -25,6 +25,10 @@ header{
     padding: 4rem 3rem;
 }
 
+.header-nav-main li:last-of-type{
+    padding-right: 0;
+}
+
 .services-active{
     border-right: 1px solid var(--dark);
     border-left: 1px solid var(--dark);
