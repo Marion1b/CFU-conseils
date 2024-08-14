@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo-light.svg";
 import polygon from "../assets/Polygon.svg";
 import { useState } from 'react';
 import {isHide} from '../utils.js';
