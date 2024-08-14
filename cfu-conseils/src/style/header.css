@@ -25,7 +25,7 @@ header{
     padding: 4rem 3rem;
 }
 
-.header-nav-main li:last-of-type{
+.header-nav-main li:nth-child(4){
     padding-right: 0;
 }
 
