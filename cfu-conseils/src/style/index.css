@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+:root{
+    --light : #FFECD1;
+    --flash : #FF7D00;
+    --secondary : #15616D;
+    --dark : #001524;
+    --title-font : "Roboto Serif", serif;
+    --p-font : "Playfair Display", serif;
+    --button-font : "Roboto Condensed", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: var(--p-font);
+    color: var(--dark);
+}
+
+h1{
+    font-family: var(--title-font);
+    font-size: 3.2rem;
+}
+
+h2{
+    font-family: var(--title-font);
+    font-size: 2.4rem;
+}
+
+h3{
+    font-family: var(--title-font);
+    font-size: 2rem;
+}
+
+button{
+    font-family: var(--button-font);
+    font-size: 1.6rem;
+}
+
+.bold{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: var(--dark)
+}
+
+@import url('header.css');
