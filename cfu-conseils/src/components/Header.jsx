@@ -21,7 +21,7 @@ function Header(){
                             </ul>
                         </li>
                         <li><a href="/about">Qui sommes-nous ?</a></li>
-                        <li>Contact</li>
+                        <li><a href="/contact">Contact</a></li>
                     </ul>
                 </nav>
             </section>
