@@ -51,10 +51,12 @@ ul{
 }
 
 a{
-    color: var(--dark)
+    color: var(--dark);
+    text-decoration: none;
 }
 
 @import url('header.css');
 @import url('footer.css');
 @import url('buttons.css');
 @import url('home.css');
+@import url('about.css');

@@ -1,0 +1,55 @@
+.about{
+    background-color: var(--light);
+}
+
+.about-presentation{
+    max-width: 80rem;
+    margin: auto;
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h1{
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.about-presentation div{
+    margin-top: 5rem;
+}
+
+.wave-about{
+    width: 100%;
+}
+
+.about-team{
+    background-color: var(--secondary);
+    padding-top: 10rem;
+    color: var(--light);
+}
+
+.about-cards-container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 80rem;
+    margin: auto;
+    padding-bottom: 10rem;
+}
+
+.team-card{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-card img{
+    width: 25rem;
+    margin-bottom: 3rem;
+}
+
+.team-card h2, .bold{
+    margin-bottom: 1rem;
+}
