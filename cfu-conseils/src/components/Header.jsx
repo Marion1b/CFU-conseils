@@ -12,7 +12,7 @@ function Header(){
                 <img src={logo} alt="logo de CFU conseils" />
                 <nav className="header-nav">
                     <ul className="header-nav-main">
-                        <li>Accueil</li>
+                        <li><a href="/">Accueil</a></li>
                         <li onClick={() => isHide(hide, setHide)} className={`${hide ? '' : 'services-active'}`}>Services <img src={polygon} alt="" />
                             <ul className={`header-nav-services ${hide ? 'hide' : ''}`}>
                                 <li>Comptabilité gestion locative immobilière</li>
@@ -20,7 +20,7 @@ function Header(){
                                 <li>Conseils en gestion</li>
                             </ul>
                         </li>
-                        <li>Qui sommes-nous ?</li>
+                        <li><a href="/about">Qui sommes-nous ?</a></li>
                         <li>Contact</li>
                     </ul>
                 </nav>

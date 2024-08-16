@@ -24,6 +24,9 @@ header{
     z-index: 100;
 }
 
+.header-container a{
+    color: var(--light);
+}
 
 ul.header-nav-main > li{
     padding: 4rem 3rem;
