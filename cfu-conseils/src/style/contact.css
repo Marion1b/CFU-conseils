@@ -1,0 +1,57 @@
+.contact{
+    background-color: var(--light);
+}
+
+.contact-presentation{
+    max-width: 100rem;
+    margin: auto;
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-presentation > img{
+    width: 45%;
+}
+
+.contact-presentation article{
+    width: 50%;
+}
+
+.contact-presentation h1{
+    margin-bottom: 3rem;
+}
+
+.wave-contact{
+    width: 100%;
+    margin: auto;
+}
+
+.contact-infos{
+    background-color: var(--secondary);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.contact-infos-cards-container{
+    max-width: 100rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.contact-infos-card{
+    display: flex;
+    align-items: center;
+    width: 30rem;
+    color: var(--light);
+    border: 3px solid var(--light);
+    border-radius: 10px;
+    padding: 3rem;
+}
+
+.contact-infos-card i{
+    font-size: 8rem;
+    margin-right: 5rem;
+}
