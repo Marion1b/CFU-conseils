@@ -1,14 +1,20 @@
-header{
+.header-desktop{
     background-color: var(--secondary);
     border-bottom: 1px solid var(--light);
     width: 100%;
+}
+
+@media screen and (max-width:1024px) {
+    .header-desktop{
+        display: none;
+    }
 }
 
 .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 90%;
     max-width: 140rem;
     margin: auto;
     color: var(--light);
