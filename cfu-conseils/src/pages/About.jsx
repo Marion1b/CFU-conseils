@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../components/Button.jsx';
 import photo from '../assets/photo.png';
 import waveAbout from '../assets/wave-about.svg';
+import { Link } from 'react-router-dom';
 
 function About(){
     return(
@@ -11,8 +12,8 @@ function About(){
                 <p>Notre société de conseil en gestion et de comptabilité est spécialisée  dans l'accompagnement des entreprises de toutes tailles dans la gestion  de leur activité. Nous proposons une gamme complète de services de  comptabilité, allant de la tenue de la comptabilité générale à la  gestion de la fiscalité, en passant par la gestion de la trésorerie et  la préparation des bilans. Nous sommes également spécialisés dans le  conseil en gestion, et nous accompagnons nos clients dans la mise en  place de stratégies de gestion efficaces pour optimiser la performance  de leur entreprise. Notre équipe de professionnels expérimentés est là  pour vous fournir des solutions sur mesure, adaptées à vos besoins  spécifiques, pour vous permettre de prendre les meilleures décisions  pour votre entreprise et de la faire grandir.</p>
                 <p>Notre société de conseil en gestion et de comptabilité est spécialisée  dans l'accompagnement des entreprises de toutes tailles dans la gestion  de leur activité. Nous proposons une gamme complète de services de  comptabilité, allant de la tenue de la comptabilité générale à la  gestion de la fiscalité, en passant par la gestion de la trésorerie et  la préparation des bilans. Nous sommes également spécialisés dans le  conseil en gestion, et nous accompagnons nos clients dans la mise en  place de stratégies de gestion efficaces pour optimiser la performance  de leur entreprise. Notre équipe de professionnels expérimentés est là  pour vous fournir des solutions sur mesure, adaptées à vos besoins  spécifiques, pour vous permettre de prendre les meilleures décisions  pour votre entreprise et de la faire grandir.</p>
                 <div>
-                    <Button content="Nos services" color="orange"/>
-                    <Button content="Nous contacter" color="light"/>
+                    <Link to="/#services"><Button content="Nos services" color="orange"/></Link>
+                    <a href="/contact"><Button content="Nous contacter" color="light"/></a>
                 </div>
             </section>
             <figure><img src={waveAbout} alt="" className='wave-about'/></figure>

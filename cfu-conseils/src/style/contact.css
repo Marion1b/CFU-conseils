@@ -55,3 +55,7 @@
     font-size: 8rem;
     margin-right: 5rem;
 }
+
+.contact-infos-card a{
+    color: var(--light);
+}

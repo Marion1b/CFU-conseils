@@ -9,7 +9,7 @@ function Header(){
     return(
         <header>
             <section className="header-container">
-                <img src={logo} alt="logo de CFU conseils" />
+                <a href="/"><img src={logo} alt="logo de CFU conseils" /></a>
                 <nav className="header-nav">
                     <ul className="header-nav-main">
                         <li><a href="/">Accueil</a></li>

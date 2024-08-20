@@ -9,27 +9,27 @@ function Home(){
             <section className="home-presentation">
                 <h1>Comptabilité et conseils en gestion</h1>
                 <p>CFU conseils est là pour vous aider à gérer efficacement vos finances et à prendre  des décisions éclairées pour votre entreprise. Nous sommes une équipe de  professionnels expérimentés et passionnés, déterminés à fournir un  service personnalisé et de qualité à chaque client.</p>
-                <Button content="Nos services" color="orange"/>
-                <Button content="Nous contacter" color="secondary"/>
+                <a href="#services"><Button content="Nos services" color="orange"/></a>
+                <a href="/about"><Button content="Nous contacter" color="secondary"/></a>
             </section>
-            <figure><img src={waveHome} alt="" className='wave-home'/></figure>
-            <section className="home-services">
+            <figure><img src={waveHome} alt="" className='wave-home' /></figure>
+            <section className="home-services"id='services'>
                 <h1>Nos services</h1>
                 <section className="home-services-cards-container">
                     <article className="home-services-card">
                         <h2>Comptabilité gestion locative</h2>
                         <p>Gestion des tâches administratives liées à la location de vos biens immobiliers.</p>
-                        <Button content="En savoir plus" color="orange"/>
+                        <a href="/comptabilite-gestion"><Button content="En savoir plus" color="orange"/></a>
                     </article>
                     <article className="home-services-card">
                         <h2>Comptabilité d'une société</h2>
                         <p>Tenue complète de la comptabilité d’une société. A destination des TPE, associations, indépendants, libéraux...</p>
-                        <Button content="En savoir plus" color="orange"/>
+                        <a href="/comptabilite-societe"><Button content="En savoir plus" color="orange"/></a>
                     </article>
                     <article className="home-services-card">
                         <h2>Conseils en gestion</h2>
                         <p>Conseils pour la fraude fiscale et ne pas payer vos impôts pour devenir aussi riche que Bernard Arnault.</p>
-                        <Button content="En savoir plus" color="orange"/>
+                        <a href="/conseil"><Button content="En savoir plus" color="orange"/></a>
                     </article>
                 </section>
             </section>

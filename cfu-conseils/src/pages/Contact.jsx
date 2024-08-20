@@ -20,22 +20,22 @@ function Contact(){
                         <i class="fa-solid fa-phone"></i>
                         <div>
                         <p className="bold">Téléphone</p>
-                        <p>01.23.45.67.89</p>
+                        <a href="tel:+33123456789">01.23.45.67.89</a>
                         </div>
                     </article>
                     <article className="contact-infos-card">
                         <i class="fa-solid fa-envelope"></i>
                         <div>
                         <p className="bold">Mail</p>
-                        <p>mail@mail.com</p>
+                        <a href="mailto:mail@mail.com">mail@mail.com</a>
                         </div>
                     </article>
                     <article className="contact-infos-card">
                         <i class="fa-brands fa-linkedin"></i>
                         <div>
                         <p className="bold">Linkedin</p>
-                        <p>Catherine</p>
-                        <p>François</p>
+                        <a href="https://www.linkedin.com" target='_blank' rel="noopener noreferrer">Catherine</a><br />
+                        <a href="https://www.linkedin.com" target='_blank' rel="noopener noreferrer">François</a>
                         </div>
                     </article>
                 </div>
