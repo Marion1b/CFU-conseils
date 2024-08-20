@@ -15,7 +15,7 @@
 }
 
 figure{
-    height: 190px;
+    transform: translateY(10px);
 }
 
 .wave-home{

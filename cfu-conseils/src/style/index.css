@@ -25,6 +25,7 @@ body{
     font-size: 1.6rem;
     font-family: var(--p-font);
     color: var(--dark);
+    overflow-x: hidden;
 }
 
 h1{
