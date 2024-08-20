@@ -15,9 +15,9 @@ function Header(){
                         <li><a href="/">Accueil</a></li>
                         <li onClick={() => isHide(hide, setHide)} className={`${hide ? '' : 'services-active'}`}>Services <img src={polygon} alt="" />
                             <ul className={`header-nav-services ${hide ? 'hide' : ''}`}>
-                                <li>Comptabilité gestion locative immobilière</li>
-                                <li>Comptabilité d'une société</li>
-                                <li>Conseils en gestion</li>
+                                <li><a href="/comptabilite-gestion">Comptabilité gestion locative immobilière</a></li>
+                                <li><a href="/comptabilite-societe">Comptabilité d'une société</a></li>
+                                <li><a href="/conseil">Conseils en gestion</a></li>
                             </ul>
                         </li>
                         <li><a href="/about">Qui sommes-nous ?</a></li>

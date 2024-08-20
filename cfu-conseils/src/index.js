@@ -8,6 +8,9 @@ import Footer from './components/Footer.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
+import ComptaGestion from './pages/ComptaGestion.jsx';
+import ComptaSociete from './pages/ComptaSociete.jsx';
+import Conseil from './pages/Conseil.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +19,9 @@ root.render(
     <Router>
       <Routes>
         <Route path = "/" element={<Home/>}/>
+        <Route path = "/comptabilite-gestion" element={<ComptaGestion />}/>
+        <Route path = "/comptabilite-societe" element={<ComptaSociete/>}/>
+        <Route path="/conseil" element={<Conseil/>}/>
         <Route path="/about" element = {<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
       </Routes>
