@@ -1,0 +1,185 @@
+.header-mobile{
+    display:none;
+}
+
+@media screen and (max-width:1024px){
+    .header-mobile{
+        display: block;
+        background-color: var(--secondary);
+        border-bottom: 1px solid var(--light);
+        width: 100%;
+    }
+    .header-mobile-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        color: var(--light);
+        padding: 2rem 0;
+    }
+    .header-mobile-container a{
+        color: var(--light);
+    }
+    .header-mobile-nav{
+        display: none;
+    }
+    .logo{
+        height: 40px;
+    }
+    #nav-icon2{
+        width: 40px;
+        height: 24px;
+        position: relative;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -moz-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+    }
+    #nav-icon2 span {
+        display: block;
+        position: absolute;
+        height: 3px;
+        width: 2rem;
+        background: var(--light);
+        opacity: 1;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+    
+    #nav-icon2 span:nth-child(even) {
+    left: 50%;
+    border-radius: 0 9px 9px 0;
+    }
+    
+    #nav-icon2 span:nth-child(odd) {
+    left:0px;
+    border-radius: 9px 0 0 9px;
+    }
+    
+    #nav-icon2 span:nth-child(1), #nav-icon2 span:nth-child(2) {
+    top: 0px;
+    }
+    
+    #nav-icon2 span:nth-child(3), #nav-icon2 span:nth-child(4) {
+    top: 10px;
+    }
+    
+    #nav-icon2 span:nth-child(5), #nav-icon2 span:nth-child(6) {
+    top: 20px;
+    }
+    
+    #nav-icon2.open span:nth-child(1),#nav-icon2.open span:nth-child(6) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    }
+    
+    #nav-icon2.open span:nth-child(2),#nav-icon2.open span:nth-child(5) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    }
+    
+    #nav-icon2.open span:nth-child(1) {
+    left: 3px;
+    top: 0px;
+    }
+    
+    #nav-icon2.open span:nth-child(2) {
+    left: calc(50% - 3px);
+    top: 0px;
+    }
+    
+    #nav-icon2.open span:nth-child(3) {
+    left: -50%;
+    opacity: 0;
+    }
+    
+    #nav-icon2.open span:nth-child(4) {
+    left: 100%;
+    opacity: 0;
+    }
+    
+    #nav-icon2.open span:nth-child(5) {
+    left: 3px;
+    top: 14px;
+    }
+    
+    #nav-icon2.open span:nth-child(6) {
+    left: calc(50% - 3px);
+    top: 14px;
+    }
+
+    .nav-active{
+        display: block;
+        position: absolute;
+        top: 83px;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: rgba(21, 97, 109, 84%);
+        backdrop-filter: blur(10px);
+    }
+
+    .header-nav-main{
+        display: block;
+    }
+
+    ul.header-nav-main > li{
+        background-color: transparent;
+        padding-right: 2rem !important;
+    }
+
+    ul.header-nav-main > li:hover{
+        text-decoration: none;
+    }
+
+    .nav-active{
+        font-size: 1.8rem;
+        text-align: right;
+    }
+
+    .header-nav-services{
+        position: relative;
+        top: 0;
+        right: 0;
+        border: none;
+        border-radius: none;
+        background: transparent;
+        display: block;
+    }
+
+    .header-nav-services li{
+        padding: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .header-nav-services li:nth-child(1){
+        margin-top: 2rem;
+    }
+
+    .header-nav-services li:nth-child(2){
+        border-inline: none;
+    }
+
+    .hide{
+        position: absolute;
+        right: -500px;
+        transition: none;
+    }
+}
