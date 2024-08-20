@@ -1,0 +1,87 @@
+.service{
+    background-color: var(--light);
+}
+
+.service-presentation{
+    width: 90%;
+    max-width: 150rem;
+    margin: auto;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-presentation article{
+    width: 45%;
+}
+
+.service-presentation aside{
+    width: 48%;
+}
+
+.service-presentation aside img{
+    width: 100%;
+}
+
+.service-presentation h1{
+    margin-bottom: 2rem;
+}
+
+.service-presentation p{
+    margin-bottom: 2rem;
+}
+
+.service-presentation button{
+    margin: 0;
+    margin-right: 5rem;
+}
+
+.wave-immobilier{
+    width: 100%;
+}
+
+.service-more{
+    background-color: var(--secondary);
+}
+
+.service-more-container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 120rem;
+    margin: auto;
+    color: var(--light);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.service-more-container h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.service-more-explain{
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid var(--light);
+    border-radius: 15px;
+    padding: 5rem 3rem;
+}
+
+.service-more-explain > *{
+    padding: 0 5rem;
+}
+
+.service-more-explain div:last-child{
+    border-left: 2px solid var(--light);
+}
+
+.service-more-explain > div p:not(:last-child){
+    margin-bottom: 2rem;
+}
+
+.service-more-container > p{
+    margin: 5rem 10rem;
+}
