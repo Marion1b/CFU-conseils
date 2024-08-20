@@ -38,8 +38,12 @@
     margin-right: 5rem;
 }
 
+.service-presentation > figure{
+    margin: 0;
+}
+
 .wave-immobilier{
-    width: 100%;
+    width: 101%;
 }
 
 .service-more{
