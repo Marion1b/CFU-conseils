@@ -6,8 +6,8 @@
     max-width: 80rem;
     margin: auto;
     text-align: center;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
 }
 
 .home-presentation h1, .home-presentation p{
@@ -24,8 +24,8 @@ figure{
 
 .home-services{
     background-color: var(--secondary);
-    padding-top: 8rem;
-    padding-bottom: 10rem;
+    padding-top: 13rem;
+    padding-bottom: 15rem;
 }
 
 .home-services h1{
@@ -58,8 +58,8 @@ figure{
 }
 
 .home-team{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
 }
 
 .home-team h1{
