@@ -23,9 +23,20 @@
     margin-bottom: 3rem;
 }
 
+@media screen and (max-width:1024px){
+    .contact-presentation{
+        padding: 8rem 5rem 5rem 5rem;
+    }
+    .contact-presentation article{
+        width: 100%;
+    }
+    .contact-presentation > img{
+        display: none;
+    }
+}
+
 .wave-contact{
     width: 100%;
-    margin: auto;
 }
 
 .contact-infos{
@@ -58,4 +69,16 @@
 
 .contact-infos-card a{
     color: var(--light);
+}
+
+@media screen and (max-width:1024px){
+    .contact-infos i{
+        font-size: 5rem;
+    }
+    .contact-infos-cards-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5rem;
+    }
 }
