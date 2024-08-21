@@ -79,8 +79,12 @@
     }
 }
 
+figure{
+    overflow-x: hidden;
+}
+
 .wave-immobilier{
-    width: 101%;
+    width: 102%;
 }
 
 .service-more{
