@@ -42,6 +42,43 @@
     margin: 0;
 }
 
+@media screen and (max-width:1024px){
+    .service-presentation{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 8rem;
+    }
+    .service-presentation aside{
+        display: none;
+    }
+    .service-presentation article{
+        width: 90%;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service-presentation aside{
+        order: 1;
+        margin-bottom: 3rem;
+    }
+    .service-presentation button{
+        margin: 0;
+    }
+    .service-presentation .button-secondary{
+        margin-top:2rem;
+    }
+}
+
+@media screen and (max-width:1185px) and (min-width:1024px){
+    .service-presentation .button-secondary{
+        margin-top: 2rem;
+    }
+}
+
 .wave-immobilier{
     width: 101%;
 }
@@ -57,8 +94,7 @@
     max-width: 120rem;
     margin: auto;
     color: var(--light);
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding: 10rem 5rem;
 }
 
 .service-more-container h2{
@@ -88,4 +124,27 @@
 
 .service-more-container > p{
     margin: 5rem 10rem;
+}
+
+@media screen and (max-width:1024px){
+    .service-more-container{
+        padding: 5rem;
+    }
+    .service-more-explain{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .service-more-explain div:last-child{
+        border: none;
+    }
+    .service-more-explain > div p{
+        margin-bottom: 2rem;
+    }
+    .service-more-explain > *{
+        padding: .5rem;
+        padding-bottom: 0;
+    }
+    .service-more-container > p{
+        margin: 3rem;
+    }
 }
